@@ -1,0 +1,11 @@
+{
+  "name": "QR Linker",
+  "description": "Scan and decode QR codes from images, even if they are small, blurry, or faded. Instantly generate buttons for the decoded links.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "QR Decoding",
+    "Image Preprocessing"
+  ]
+}

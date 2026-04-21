@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "Courier New", Courier, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0A0A0A] text-white antialiased;
+  }
+}
+
+.qr-glow {
+  box-shadow: 0 0 50px -10px rgba(59, 130, 246, 0.5);
+}
+
+.accent-border {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dot-pattern {
+  background-image: radial-gradient(circle at 2px 2px, #333 1px, transparent 0);
+  background-size: 24px 24px;
+}
